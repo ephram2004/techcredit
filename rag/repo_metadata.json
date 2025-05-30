@@ -1,0 +1,6 @@
+[
+  {"path": "src/pybreaker/__init__.py", "type": "source", "tech-credit": "Circuit Breaker"},
+  {"path": "tests/__init__.py", "type": "test", "tech-credit": "Circuit Breaker"},
+  {"path": "tests/pybreaker_test.py", "type": "test", "tech-credit": "Circuit Breaker"},
+  {"path": "tests/typechecks.py", "type": "test", "tech-credit": "Circuit Breaker"}
+]
