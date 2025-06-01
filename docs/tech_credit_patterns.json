@@ -1,0 +1,97 @@
+[
+  {
+    "pattern_name": "Front controller",
+    "pattern_description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Module",
+    "pattern_description": "Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Proxy",
+    "pattern_description": "Provide a surrogate or placeholder for another object to control access to it.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Circuit breaker",
+    "pattern_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems.",
+    "technical_credit": true
+  },  
+  {
+    "pattern_name": "Chain of responsibility",
+    "pattern_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Command",
+    "pattern_description": "Encapsulate a request as an object, thereby allowing for the parameterization of clients with different requests, and the queuing or logging of requests. It also allows for the support of undoable operations.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Interpreter",
+    "pattern_description": "Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Iterator",
+    "pattern_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Mediator",
+    "pattern_description": "Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Memento",
+    "pattern_description": "Without violating encapsulation, capture and externalize an object's internal state allowing the object to be restored to this state later.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Observer or Publish/subscribe",
+    "pattern_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Servant",
+    "pattern_description": "Define common functionality for a group of classes. The servant pattern is also frequently called helper class or utility class implementation for a given set of classes. The helper classes generally have no objects hence they have all static methods that act upon different kinds of class objects.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Strategy",
+    "pattern_description": "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Template method",
+    "pattern_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Visitor",
+    "pattern_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Active Object",
+    "pattern_description": "Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Event-based asynchronous",
+    "pattern_description": "Addresses problems with the asynchronous pattern that occur in multithreaded programs.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Messaging design pattern (MDP)",
+    "pattern_description": "Allows the interchange of information (i.e. messages) between components and applications.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Thread pool",
+    "pattern_description": "A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.",
+    "technical_credit": true
+  }
+]

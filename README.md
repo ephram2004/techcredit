@@ -23,10 +23,29 @@ technical credit it may have.
 2. Use a manually labelled json file for each source file inside a repository.
 ``` json
 [
-  {"path": "src/pybreaker/__init__.py", "type": "source", "tech-credit": "Circuit Breaker"},
-  {"path": "tests/__init__.py", "type": "test", "tech-credit": "Circuit Breaker"},
-  {"path": "tests/pybreaker_test.py", "type": "test", "tech-credit": "Circuit Breaker"},
-  {"path": "tests/typechecks.py", "type": "test", "tech-credit": "Circuit Breaker"}
+  {
+    "path": "src/pybreaker/__init__.py",
+    "type": "source",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  },
+  {
+    "path": "tests/__init__.py",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  },
+  {
+    "path": "tests/pybreaker_test.py",
+    "type": "test",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  },
+  {
+    "path": "tests/typechecks.py",
+    "type": "test",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  }
 ]
 ```
 
