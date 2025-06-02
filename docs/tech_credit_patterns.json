@@ -1,5 +1,30 @@
 [
   {
+    "pattern_name": "Circuit breaker",
+    "pattern_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Strategy Pattern",
+    "pattern_description": "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Architecture Design Records",
+    "pattern_description": "Document architectural decisions in a lightweight, structured format to improve traceability, promote team alignment, and support future system evolution. ADRs capture the rationale, context, and alternatives behind design choices, enabling resilient and maintainable architecture.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Adapter Pattern",
+    "pattern_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Model View Controller",
+    "pattern_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component.",
+    "technical_credit": true
+  },
+  {
     "pattern_name": "Front controller",
     "pattern_description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
     "technical_credit": true
@@ -8,17 +33,12 @@
     "pattern_name": "Module",
     "pattern_description": "Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.",
     "technical_credit": true
-  },
+  }, 
   {
     "pattern_name": "Proxy",
     "pattern_description": "Provide a surrogate or placeholder for another object to control access to it.",
     "technical_credit": true
   },
-  {
-    "pattern_name": "Circuit breaker",
-    "pattern_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems.",
-    "technical_credit": true
-  },  
   {
     "pattern_name": "Chain of responsibility",
     "pattern_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.",
@@ -57,11 +77,6 @@
   {
     "pattern_name": "Servant",
     "pattern_description": "Define common functionality for a group of classes. The servant pattern is also frequently called helper class or utility class implementation for a given set of classes. The helper classes generally have no objects hence they have all static methods that act upon different kinds of class objects.",
-    "technical_credit": true
-  },
-  {
-    "pattern_name": "Strategy",
-    "pattern_description": "Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.",
     "technical_credit": true
   },
   {
