@@ -25,7 +25,7 @@
     "technical_credit": true
   },
   {
-    "pattern_name": "Visitor",
+    "pattern_name": "Visitor Pattern",
     "pattern_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.",
     "technical_credit": true
   },
