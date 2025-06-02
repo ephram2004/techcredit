@@ -4,3 +4,5 @@ channels:
   - defaults
 dependencies:
   - notebook
+  - jupyter-collaboration
+prefix: /Users/username/miniconda/envs/rag
