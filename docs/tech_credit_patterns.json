@@ -33,17 +33,17 @@
     "pattern_name": "Iterator",
     "pattern_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.",
     "technical_credit": true
-  }#,
-  {
-    "pattern_name": "Front controller",
-    "pattern_description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
-    "technical_credit": true
   },
   {
     "pattern_name": "Module",
     "pattern_description": "Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.",
     "technical_credit": true
-  }, 
+  }#, 
+  {
+    "pattern_name": "Front controller",
+    "pattern_description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
+    "technical_credit": true
+  },
   {
     "pattern_name": "Proxy",
     "pattern_description": "Provide a surrogate or placeholder for another object to control access to it.",
