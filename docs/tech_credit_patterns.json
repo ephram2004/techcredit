@@ -25,6 +25,16 @@
     "technical_credit": true
   },
   {
+    "pattern_name": "Visitor",
+    "pattern_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.",
+    "technical_credit": true
+  },
+  {
+    "pattern_name": "Iterator",
+    "pattern_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.",
+    "technical_credit": true
+  }#,
+  {
     "pattern_name": "Front controller",
     "pattern_description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
     "technical_credit": true
@@ -55,11 +65,6 @@
     "technical_credit": true
   },
   {
-    "pattern_name": "Iterator",
-    "pattern_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.",
-    "technical_credit": true
-  },
-  {
     "pattern_name": "Mediator",
     "pattern_description": "Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it allows their interaction to vary independently.",
     "technical_credit": true
@@ -85,11 +90,6 @@
     "technical_credit": true
   },
   {
-    "pattern_name": "Visitor",
-    "pattern_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates.",
-    "technical_credit": true
-  },
-  {
     "pattern_name": "Active Object",
     "pattern_description": "Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests.",
     "technical_credit": true
@@ -108,5 +108,5 @@
     "pattern_name": "Thread pool",
     "pattern_description": "A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.",
     "technical_credit": true
-  }
+  }#
 ]
