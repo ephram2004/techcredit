@@ -17,6 +17,21 @@ other for documentation.
 The source code dataset will be attached with a metadata that label some 
 technical credit it may have.
 
+## Getting started
+
+We use conda (miniconda) and pip to manage Python environment.
+
+Inside the directory, there is a "environment.yml" file for all dependencies, 
+you may need to manually change the name and prefix for the python environment.
+``` bash
+conda env create -f environment.yml
+```
+
+And then, run the jupyter notebook to run the rag system.
+``` bash
+jupyter notebook
+```
+
 ### Source code
 
 1. Use github repository as source code data.
@@ -77,6 +92,6 @@ Answer:
    
 ## Todo
 
-1. [ ] load multiple repositories
-2. [ ] label repositories with tech-credit as metadata
+1. [ ] load repository from user
+2. [ ] label example codes with tech-credit as metadata
 3. [ ] revise prompt
