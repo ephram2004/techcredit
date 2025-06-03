@@ -9,19 +9,19 @@ possible technical credits based on particular documentation.
 
 Currently a chroma database based on sqlite for source code.
 
-Hopefully there will be two vector databases, one for the source code, the 
+Hopefully there will be two vector databases, one for the source code, the
 other for documentation.
 
 ## Dataset
 
-The source code dataset will be attached with a metadata that label some 
+The source code dataset will be attached with a metadata that label some
 technical credit it may have.
 
 ## Getting started
 
 We use conda (miniconda) and pip to manage Python environment.
 
-Inside the directory, there is a "environment.yml" file for all dependencies, 
+Inside the directory, there is a "environment.yml" file for all dependencies,
 you may need to manually change the name and prefix for the python environment.
 ``` bash
 conda env create -f environment.yml
@@ -39,57 +39,62 @@ jupyter notebook
 ``` json
 [
   {
-    "path": "src/pybreaker/__init__.py",
-    "type": "source",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+	"path": "src/pybreaker/__init__.py",
+	"type": "source",
+	"tech_credit": "Circuit Breaker",
+	"tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
   },
   {
-    "path": "tests/__init__.py",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+	"path": "tests/__init__.py",
+	"tech_credit": "Circuit Breaker",
+	"tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
   },
   {
-    "path": "tests/pybreaker_test.py",
-    "type": "test",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+	"path": "tests/pybreaker_test.py",
+	"type": "test",
+	"tech_credit": "Circuit Breaker",
+	"tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
   },
   {
-    "path": "tests/typechecks.py",
-    "type": "test",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+	"path": "tests/typechecks.py",
+	"type": "test",
+	"tech_credit": "Circuit Breaker",
+	"tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
   }
 ]
 ```
 
 ### Documentation for Technical Credit
 
-1. [ ] TODO: text data as documentation for technical credit
+1. [x] DONE: text data as documentation for technical credit: add one web page
+			 of academic document in document vector database.
 
 ## Prompt
 
 A possible prompt would be:
 
 ```
-You are an assistant for identifying good code. Use the following pieces of 
-retrieved context to answer the question. If you don't know the answer, just say
-that you don't know. Use three sentences maximum and keep the answer concise.
+system: You are an assistant for identifying technical credit. Use the following
+		pieces of retrieved context to answer the question. If you don't know
+		the answer, just say that you don't know. Use three sentences maximum
+		and keep the answer concise.
 
-Here is the definition for the tech credit of Circuit Breaker:
-{Doc: documentation retrieved from DB}
+user: Here is the descirption for the tech credit:
+	  {tech_credit}
 
-Here is an example code for that tech credit:
-{Code: source code retrieved from DB}
+	  Some documentation about tech credit:
+	  {context_doc}
 
-Here is the code from user:
-{User code}
+	  Here is an example code for that tech credit:
+	  {context_code}
 
-Answer if this is a good technical credit
-Answer:
+	  Here is the code from user:
+	  {code}
+
+	  Question: {question}
+	  Answer:
 ```
-   
+
 ## Todo
 
 1. [ ] load repository from user
