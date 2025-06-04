@@ -35,11 +35,6 @@
     "technical_credit": true
   },
   {
-    "pattern_name": "Module",
-    "pattern_description": "Group several related elements, such as classes, singletons, methods, globally used, into a single conceptual entity.",
-    "technical_credit": true
-  },
-  {
     "pattern_name": "Platform Abstraction Layers",
     "pattern_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution.",
     "technical_credit": true
