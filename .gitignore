@@ -24,3 +24,6 @@ ipython_config.py
 # Jupyter collaboration db
 .jupyter_ystore.db
 /rag/.env
+
+# ignore DS_Store
+.DS_Store
