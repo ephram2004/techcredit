@@ -1,8 +1,10 @@
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
+.env
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+*/__pycache__
 
 # IPython
 profile_default/
