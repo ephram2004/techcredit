@@ -18,11 +18,13 @@ class SecretsLoader:
         if dotenv.load_dotenv(token_path):
             print(f"Loaded {token_name} from token file: {token_path}")
         else:
-            raise ImportError(
+            raise FileNotFoundError(
                 f"Could not load token: {token_name}, check if token exists in given token file."
             )
 
         if (os.environ.get(token_name)):
             return str(os.getenv(token_name))
         else:
-            raise OSError("Could not retrieve token.") 
+            raise OSError(
+                f"Could not retrieve token: {token_name}. Ensure it is defined in your environment."
+            ) 
