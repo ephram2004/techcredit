@@ -17,4 +17,4 @@ A loader script is located in `secrets/secrets_loader.py`. To load a token, impo
 your script and call the function `SecretsLoader.get_token("[NAME OF TOKEN]", "[.env FILEPATH]")`.
 
 **NOTE**: the default filepath is already set to the location of the `.env` file. Only change it if
-you have rellocated your `.env` file. 
+you have relocated your `.env` file. 
