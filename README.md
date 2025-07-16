@@ -59,7 +59,7 @@ Depending on which AI model you choose, you will need a few API keys:
 ### Dataset example and metadata
 
 Our Tech credit example codes are hosted in a different
-[repo](https://github.com:ameliarogerscodes/TC-Examples). Each folder
+[repo](https://github.com/ameliarogerscodes/TC-Examples). Each folder
 inside the repo is some labelled example codes with tech credit
 metadata. By executing the Python script
 ```scripts/generate_repo_metadata.py```, a metadata file called
