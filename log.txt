@@ -1,0 +1,143 @@
+Context being passed to LLM:
+Figure 2.  Conceptual model of technical credit.1 Technical Credit in PracticeDecisions leading to TC are inherently connected to a system’s business domain and product roadmap. However, not all design decisions yield true TC: those not enabling cost-effective modifications in line with business objectives might be deemed over-engineering. We create TC by crafting design decisions that ease future modifications anticipated by the product’s roadmap. Thus, a design decision yields technical credit
+User Prompt:
+
+Here is the No. 1 part of a tech credit
+Descirption:
+
+
+Example code for that tech credit:
+public BookIterator(List<Book> books) {
+        this.books = books;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return index < books.size();
+    }
+
+public void showTasks(List<String> tasks) {
+        System.out.println("Current Tasks:");
+        for (int i = 0; i < tasks.size(); i++) {
+
+@Override
+    public boolean hasNext() {
+        return index < books.size();
+    }
+
+    @Override
+    public Book next() {
+        return books.get(index++);
+    }
+}
+
+public void addTask(String task) {
+        tasks.add(task);
+    }
+
+    public List<String> getTasks() {
+        return tasks;
+    }
+}
+
+Here is the code from user:
+jects currently in this list.
+   *
+   * @return the size of the list
+   */
+  int getSize();
+
+  /**
+   * Get the (index)th object in this list.
+   *
+   * @param index the index of the ob
+
+Here is the No. 2 part of a tech credit
+Descirption:
+
+
+Example code for that tech credit:
+import java.util.List;
+
+// TC_TYPE: iterator 
+
+package Iterator;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+/**
+ * Aggregate class that holds a collection of books
+ */
+
+// TC_TYPE: model_view_controller
+
+package MVC;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Model class that manages the list of tasks
+ */
+
+* 
+     * @param args Command-line arguments (not used).
+     */
+    public static void main(String[] args) {
+        // Create a list of components
+
+Here is the code from user:
+adt.CommonListADT;
+import listadt.ImmutableListADT;
+import listadt.ImmutableListADTImpl;
+import listadt.MutableListADT;
+import listadt.MutableListADTImpl;
+import org.
+
+Here is the No. 3 part of a tech credit
+Descirption:
+
+
+Example code for that tech credit:
+import java.util.List;
+
+public void addTask(String task) {
+        tasks.add(task);
+    }
+
+    public List<String> getTasks() {
+        return tasks;
+    }
+}
+
+* 
+     * @param data The data to be processed by the algorithm.
+     * @return The result of the algorithm.
+     */
+    List<String> doAlgorithm(List<String> data);
+}
+
+// TC_TYPE: model_view_controller
+
+package MVC;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Model class that manages the list of tasks
+ */
+
+Here is the code from user:
+java.util.function.Function;
+import listadt.CommonListADT;
+import listadt.ImmutableListADT;
+import listadt.ImmutableListADTImpl;
+import listadt.MutableListADT;
+import listadt.Mut
+
+Final Messages:
+messages=[SystemMessage(content="You are an assistant for identifying technical credit. Use the following pieces                 of retrieved context to answer the question. If you don't know the answer, just                 say that you don't know. For each code snippet, use three sentences maximum and                 keep the answer concise.", additional_kwargs={}, response_metadata={}), HumanMessage(content='Some documentation about tech credit:\nFigure 2.\xa0 Conceptual model of technical credit.1\xa0Technical Credit in PracticeDecisions leading to TC are inherently connected to a system’s business domain and product roadmap. However, not all design decisions yield true TC: those not enabling cost-effective modifications in line with business objectives might be deemed over-engineering. We create TC by crafting design decisions that ease future modifications anticipated by the product’s roadmap. Thus, a design decision yields technical credit upon its utilization.Drawing on extensive experience with product, architecture, and code reviews, we have identified examples of TC across different application domains.Platform abstraction layer.\xa0 This strategy creates abstraction layers around third-party products and libraries, protecting application code from external API changes. When these products need replacing, adjustments are made only to the abstraction layer, not the application code. This approach exemplifies TC in reducing the\n\nFigure 2.\xa0 Conceptual model of technical credit.1\xa0Technical Credit in PracticeDecisions leading to TC are inherently connected to a system’s business domain and product roadmap. However, not all design decisions yield true TC: those not enabling cost-effective modifications in line with business objectives might be deemed over-engineering. We create TC by crafting design decisions that ease future modifications anticipated by the product’s roadmap. Thus, a design decision yields technical credit upon its utilization.Drawing on extensive experience with product, architecture, and code reviews, we have identified examples of TC across different application domains.Platform abstraction layer.\xa0 This strategy creates abstraction layers around third-party products and libraries, protecting application code from external API changes. When these products need replacing, adjustments are made only to the abstraction layer, not the application code. This approach exemplifies TC in reducing the\n\nFigure 2.\xa0 Conceptual model of technical credit.1\xa0Technical Credit in PracticeDecisions leading to TC are inherently connected to a system’s business domain and product roadmap. However, not all design decisions yield true TC: those not enabling cost-effective modifications in line with business objectives might be deemed over-engineering. We create TC by crafting design decisions that ease future modifications anticipated by the product’s roadmap. Thus, a design decision yields technical credit upon its utilization.Drawing on extensive experience with product, architecture, and code reviews, we have identified examples of TC across different application domains.Platform abstraction layer.\xa0 This strategy creates abstraction layers around third-party products and libraries, protecting application code from external API changes. When these products need replacing, adjustments are made only to the abstraction layer, not the application code. This approach exemplifies TC in reducing the\n\nsystems, acting as safeguards against transient performance degradation or complete failures of called services. Circuit breakers are TC as they guard against cascading failures caused by slow responses to requests that lead to congestion, overload and eventual failure in calling services. They ensure system resilience and facilitate its evolution.Reference architectures (RAs).\xa0 RAs capture the essence of the architecture of a collection of systems in a given domain, serving prescriptive, descriptive, and informative roles. They guide the development, standardization, and evolution of architectures within an application domain and aid decision-making by disseminating architectural knowledge. As such, RAs are a form of technical credit.A Research Agenda for Technical CreditWe believe TC warrants comprehensive investigation and scrutiny from the software engineering community. Analogous to technical debt, we see three broad areas of research to explore1: defining, comprehending, and\n\nThe following are snippets of codes that are most similar to example codes of \ntech credits.\n\nHere is the No. 1 part of a tech credit\nDescirption:\n\n\nExample code for that tech credit:\npublic BookIterator(List<Book> books) {\n        this.books = books;\n    }\n\n    @Override\n    public boolean hasNext() {\n        return index < books.size();\n    }\n\npublic void showTasks(List<String> tasks) {\n        System.out.println("Current Tasks:");\n        for (int i = 0; i < tasks.size(); i++) {\n\n@Override\n    public boolean hasNext() {\n        return index < books.size();\n    }\n\n    @Override\n    public Book next() {\n        return books.get(index++);\n    }\n}\n\npublic void addTask(String task) {\n        tasks.add(task);\n    }\n\n    public List<String> getTasks() {\n        return tasks;\n    }\n}\n\nHere is the code from user:\njects currently in this list.\n   *\n   * @return the size of the list\n   */\n  int getSize();\n\n  /**\n   * Get the (index)th object in this list.\n   *\n   * @param index the index of the ob\n\nHere is the No. 2 part of a tech credit\nDescirption:\n\n\nExample code for that tech credit:\nimport java.util.List;\n\n// TC_TYPE: iterator \n\npackage Iterator;\n\nimport java.util.ArrayList;\nimport java.util.Iterator;\nimport java.util.List;\n\n/**\n * Aggregate class that holds a collection of books\n */\n\n// TC_TYPE: model_view_controller\n\npackage MVC;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\n/**\n * Model class that manages the list of tasks\n */\n\n* \n     * @param args Command-line arguments (not used).\n     */\n    public static void main(String[] args) {\n        // Create a list of components\n\nHere is the code from user:\nadt.CommonListADT;\nimport listadt.ImmutableListADT;\nimport listadt.ImmutableListADTImpl;\nimport listadt.MutableListADT;\nimport listadt.MutableListADTImpl;\nimport org.\n\nHere is the No. 3 part of a tech credit\nDescirption:\n\n\nExample code for that tech credit:\nimport java.util.List;\n\npublic void addTask(String task) {\n        tasks.add(task);\n    }\n\n    public List<String> getTasks() {\n        return tasks;\n    }\n}\n\n* \n     * @param data The data to be processed by the algorithm.\n     * @return The result of the algorithm.\n     */\n    List<String> doAlgorithm(List<String> data);\n}\n\n// TC_TYPE: model_view_controller\n\npackage MVC;\n\nimport java.util.ArrayList;\nimport java.util.List;\n\n/**\n * Model class that manages the list of tasks\n */\n\nHere is the code from user:\njava.util.function.Function;\nimport listadt.CommonListADT;\nimport listadt.ImmutableListADT;\nimport listadt.ImmutableListADTImpl;\nimport listadt.MutableListADT;\nimport listadt.Mut\n\n\nQuestion: Tell me what tech credits does the repo possibly use?\nAnswer:\n', additional_kwargs={}, response_metadata={})]
+Based on the code snippets and documentation provided, here are the potential technical credits in this repository:
