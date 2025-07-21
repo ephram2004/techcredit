@@ -1,0 +1,5 @@
+{
+  "typeCheckingMode": "basic",
+  "ignoreMissingImports": true,
+  "exclude": ["**/code_splitter.py"]  // Optional if it’s causing other errors
+}
