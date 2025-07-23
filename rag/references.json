@@ -1,0 +1,25 @@
+{
+    "alex-lab9": "This code implements the Decorator pattern",
+    "alex-lab10": "This code implements the Adapter pattern",
+    "iluwatar-adapter": "This code implements the Adapter pattern",
+    "iluwatar-builder": "This code implements the Builder pattern",
+    "iluwatar-chain": "This code implements the ChainOfResponsibility pattern",
+    "iluwatar-cb": "This code implements the CircuitBreaker pattern",
+    "iluwatar-decorator": "This code implements the Decorator pattern",
+    "iluwatar-itr": "This code implements the Iterator pattern",
+    "iluwatar-mvc": "This code implements the Model View Controller pattern",
+    "iluwatar-proxy": "This code implements the Proxy pattern",
+    "iluwatar-strategy": "This code implements the Strategy pattern",
+    "iluwatar-template": "This code implements the Template method pattern",
+    "iluwatar-visitor": "This code implements the Visitor pattern",
+    "rg-adapter": "This code implements the Adapter pattern",
+    "rg-builder": "This code implements the Builder pattern",
+    "rg-chain": "This code implements the ChainOfResponsibility pattern",
+    "rg-decorator": "This code implements the Decorator pattern",
+    "rg-itr": "This code implements the Iterator pattern",
+    "rg-proxy": "This code implements the Proxy pattern",
+    "rg-strategy": "This code implements the Strategy pattern",
+    "rg-template": "This code implements the Template method pattern",
+    "rg-visitor": "This code implements the Visitor pattern"
+
+}
