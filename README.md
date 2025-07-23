@@ -1,5 +1,8 @@
 # Tech credit rag system
 
+Dude I'm literally at the Sydney Opera House right now
+
+
 ## Overview
 
 This rag system would receive user's repo and a question, scan code, retrieve codes and use LLM to find
