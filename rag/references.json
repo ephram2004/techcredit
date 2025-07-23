@@ -20,6 +20,6 @@
     "rg-proxy": "This code implements the Proxy pattern",
     "rg-strategy": "This code implements the Strategy pattern",
     "rg-template": "This code implements the Template method pattern",
-    "rg-visitor": "This code implements the Visitor pattern"
-
+    "rg-visitor": "This code implements the Visitor pattern",
+    "reversi-proj": "This code implements the MVC, Strategy, and Adapter patterns"
 }

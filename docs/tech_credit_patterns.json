@@ -53,7 +53,7 @@
     "pattern_name": "Template method",
     "pattern_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.",
     "technical_credit": true
-  }#,
+  },
   {
     "pattern_name": "Front controller",
     "pattern_description": "The pattern relates to the design of Web applications. It provides a centralized entry point for handling requests.",
@@ -108,5 +108,5 @@
     "pattern_name": "Thread pool",
     "pattern_description": "A number of threads are created to perform a number of tasks, which are usually organized in a queue. Typically, there are many more tasks than threads. Can be considered a special case of the object pool pattern.",
     "technical_credit": true
-  }#
+  }
 ]

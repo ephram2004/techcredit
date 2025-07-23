@@ -130,7 +130,11 @@
         "url": "https://github.com/RefactoringGuru/design-patterns-java",
         "branch": "main",
         "folder": "src/refactoring_guru/visitor/example"
+    },
+    "reversi-proj":{
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/jakewc12/Reversi",
+        "branch": "main",
+        "folder": "ReversiGame/src"
     }
-    
-
 }
