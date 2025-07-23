@@ -4,6 +4,8 @@ Dude I'm literally at the Sydney Opera House right now
 
 No way me too
 
+Sydney Opera House 7/23/2025
+
 
 ## Overview
 
