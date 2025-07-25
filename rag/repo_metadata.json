@@ -1,33 +1,123 @@
 [
   {
-    "path": "Proxy/PythonExample1/proxyex.py",
+    "path": "Strategy/PythonExample1/strategyex.py",
     "type": "source",
-    "tech_credit": "Proxy",
-    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
   },
   {
-    "path": "Proxy/JavaExample1/Main.java",
+    "path": "Strategy/JavaExample1/StrategyPatternExample.java",
     "type": "source",
-    "tech_credit": "Proxy",
-    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
   },
   {
-    "path": "Proxy/JavaExample1/Proxy.java",
+    "path": "Strategy/JavaExample1/ConcreteStrategyA.java",
     "type": "source",
-    "tech_credit": "Proxy",
-    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
   },
   {
-    "path": "Proxy/JavaExample1/RealSubject.java",
+    "path": "Strategy/JavaExample1/ConcreteStrategyB.java",
     "type": "source",
-    "tech_credit": "Proxy",
-    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
   },
   {
-    "path": "Proxy/JavaExample1/Subject.java",
+    "path": "Strategy/JavaExample1/Context.java",
     "type": "source",
-    "tech_credit": "Proxy",
-    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaExample1/Strategy.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaExample2/Main.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaExample2/CreditCardPaymentStrategy.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaExample2/PaymentStrategy.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaExample2/PayPalPaymentStrategy.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaExample2/ShoppingCart.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaCounterExample1/CommonListADT.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaCounterExample1/SimpleList.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Strategy/JavaCounterExample1/Main.java",
+    "type": "source",
+    "tech_credit": "Strategy Pattern",
+    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+  },
+  {
+    "path": "Template/PythonExample1/templateex.py",
+    "type": "source",
+    "tech_credit": "Template method",
+    "tech_credit_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+  },
+  {
+    "path": "Template/JavaExample1/TemplateMethodPatternExample.java",
+    "type": "source",
+    "tech_credit": "Template method",
+    "tech_credit_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+  },
+  {
+    "path": "CircuitBreaker/PythonExample1/CircuitBreaker.py",
+    "type": "source",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  },
+  {
+    "path": "CircuitBreaker/JavaExample1/CircuitBreaker1.java",
+    "type": "source",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  },
+  {
+    "path": "CircuitBreaker/JavaExample2/CircuitBreaker2.java",
+    "type": "source",
+    "tech_credit": "Circuit Breaker",
+    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+  },
+  {
+    "path": "Builder/ComputerExample/Computer.java",
+    "type": "source",
+    "tech_credit": "Builder Pattern",
+    "tech_credit_description": "Separate the construction of a complex object from its representation, allowing the same construction process to create different representations. Builder is particularly useful for constructing objects with many optional parameters or configurations."
   },
   {
     "path": "Decorator/JavaExample1/LoggingDecorator.java",
@@ -46,6 +136,36 @@
     "type": "source",
     "tech_credit": "Decorator Pattern",
     "tech_credit_description": "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."
+  },
+  {
+    "path": "Command/JavaExample1/Command.java",
+    "type": "source",
+    "tech_credit": "Command Pattern",
+    "tech_credit_description": ""
+  },
+  {
+    "path": "Command/JavaExample1/Light.java",
+    "type": "source",
+    "tech_credit": "Command Pattern",
+    "tech_credit_description": ""
+  },
+  {
+    "path": "Command/JavaExample1/LightOffCommand.java",
+    "type": "source",
+    "tech_credit": "Command Pattern",
+    "tech_credit_description": ""
+  },
+  {
+    "path": "Command/JavaExample1/LightOnCommand.java",
+    "type": "source",
+    "tech_credit": "Command Pattern",
+    "tech_credit_description": ""
+  },
+  {
+    "path": "Command/JavaExample1/RemoteControl.java",
+    "type": "source",
+    "tech_credit": "Command Pattern",
+    "tech_credit_description": ""
   },
   {
     "path": "MVC/PythonExample1/controller.py",
@@ -120,16 +240,130 @@
     "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
   },
   {
-    "path": "Template/PythonExample1/templateex.py",
+    "path": "ChainOfResponsibility/PythonExample1/chain_of_res_ex.py",
     "type": "source",
-    "tech_credit": "Template method",
-    "tech_credit_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
   },
   {
-    "path": "Template/JavaExample1/TemplateMethodPatternExample.java",
+    "path": "ChainOfResponsibility/JavaExample1/AbstractHandler.java",
     "type": "source",
-    "tech_credit": "Template method",
-    "tech_credit_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+  },
+  {
+    "path": "ChainOfResponsibility/JavaExample1/DogHandler.java",
+    "type": "source",
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+  },
+  {
+    "path": "ChainOfResponsibility/JavaExample1/Handler.java",
+    "type": "source",
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+  },
+  {
+    "path": "ChainOfResponsibility/JavaExample1/Main.java",
+    "type": "source",
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+  },
+  {
+    "path": "ChainOfResponsibility/JavaExample1/MonkeyHandler.java",
+    "type": "source",
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+  },
+  {
+    "path": "ChainOfResponsibility/JavaExample1/SquirrelHandler.java",
+    "type": "source",
+    "tech_credit": "Chain of responsibility",
+    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+  },
+  {
+    "path": "Iterator/PythonExample1/iter_ex.py",
+    "type": "source",
+    "tech_credit": "Iterator",
+    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+  },
+  {
+    "path": "Iterator/JavaExample1/Book.java",
+    "type": "source",
+    "tech_credit": "Iterator",
+    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+  },
+  {
+    "path": "Iterator/JavaExample1/BookCollection.java",
+    "type": "source",
+    "tech_credit": "Iterator",
+    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+  },
+  {
+    "path": "Iterator/JavaExample1/BookIterator.java",
+    "type": "source",
+    "tech_credit": "Iterator",
+    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+  },
+  {
+    "path": "Iterator/JavaExample1/Main.java",
+    "type": "source",
+    "tech_credit": "Iterator",
+    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+  },
+  {
+    "path": "PlatformAbstractionLayers/PythonExample1/BasicAbstractionPatternEx.py",
+    "type": "source",
+    "tech_credit": "Platform Abstraction Layers",
+    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+  },
+  {
+    "path": "PlatformAbstractionLayers/JavaExample1/Operation.java",
+    "type": "source",
+    "tech_credit": "Platform Abstraction Layers",
+    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+  },
+  {
+    "path": "PlatformAbstractionLayers/JavaExample1/RealOperation.java",
+    "type": "source",
+    "tech_credit": "Platform Abstraction Layers",
+    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+  },
+  {
+    "path": "PlatformAbstractionLayers/JavaExample1/TaskRunner.java",
+    "type": "source",
+    "tech_credit": "Platform Abstraction Layers",
+    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+  },
+  {
+    "path": "Proxy/PythonExample1/proxyex.py",
+    "type": "source",
+    "tech_credit": "Proxy",
+    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+  },
+  {
+    "path": "Proxy/JavaExample1/Main.java",
+    "type": "source",
+    "tech_credit": "Proxy",
+    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+  },
+  {
+    "path": "Proxy/JavaExample1/Proxy.java",
+    "type": "source",
+    "tech_credit": "Proxy",
+    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+  },
+  {
+    "path": "Proxy/JavaExample1/RealSubject.java",
+    "type": "source",
+    "tech_credit": "Proxy",
+    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+  },
+  {
+    "path": "Proxy/JavaExample1/Subject.java",
+    "type": "source",
+    "tech_credit": "Proxy",
+    "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
   },
   {
     "path": "Adapter/MainPythonExample/adapterex.py",
@@ -180,36 +414,6 @@
     "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
   },
   {
-    "path": "Iterator/PythonExample1/iter_ex.py",
-    "type": "source",
-    "tech_credit": "Iterator",
-    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
-  },
-  {
-    "path": "Iterator/JavaExample1/Book.java",
-    "type": "source",
-    "tech_credit": "Iterator",
-    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
-  },
-  {
-    "path": "Iterator/JavaExample1/BookCollection.java",
-    "type": "source",
-    "tech_credit": "Iterator",
-    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
-  },
-  {
-    "path": "Iterator/JavaExample1/BookIterator.java",
-    "type": "source",
-    "tech_credit": "Iterator",
-    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
-  },
-  {
-    "path": "Iterator/Main.java",
-    "type": "source",
-    "tech_credit": "Iterator",
-    "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
-  },
-  {
     "path": "Visitor/PythonExample1/visitorex.py",
     "type": "source",
     "tech_credit": "Visitor Pattern",
@@ -222,159 +426,39 @@
     "tech_credit_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates."
   },
   {
-    "path": "ChainOfResponsibility/PythonExample1/chain_of_res_ex.py",
+    "path": "Observer/JavaExample1/Main.java",
     "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    "tech_credit": "Observer",
+    "tech_credit_description": ""
   },
   {
-    "path": "ChainOfResponsibility/JavaExample1/AbstractHandler.java",
+    "path": "Observer/JavaExample1/Editor.java",
     "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    "tech_credit": "Observer",
+    "tech_credit_description": ""
   },
   {
-    "path": "ChainOfResponsibility/JavaExample1/DogHandler.java",
+    "path": "Observer/JavaExample1/EmailNotificationListener.java",
     "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    "tech_credit": "Observer",
+    "tech_credit_description": ""
   },
   {
-    "path": "ChainOfResponsibility/JavaExample1/Handler.java",
+    "path": "Observer/JavaExample1/EventListener.java",
     "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    "tech_credit": "Observer",
+    "tech_credit_description": ""
   },
   {
-    "path": "ChainOfResponsibility/JavaExample1/Main.java",
+    "path": "Observer/JavaExample1/EventManager.java",
     "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    "tech_credit": "Observer",
+    "tech_credit_description": ""
   },
   {
-    "path": "ChainOfResponsibility/JavaExample1/MonkeyHandler.java",
+    "path": "Observer/JavaExample1/LogOpenListener.java",
     "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
-  },
-  {
-    "path": "ChainOfResponsibility/JavaExample1/SquirrelHandler.java",
-    "type": "source",
-    "tech_credit": "Chain of responsibility",
-    "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
-  },
-  {
-    "path": "PlatformAbstractionLayers/PythonExample1/BasicAbstractionPatternEx.py",
-    "type": "source",
-    "tech_credit": "Platform Abstraction Layers",
-    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
-  },
-  {
-    "path": "PlatformAbstractionLayers/JavaExample1/Operation.java",
-    "type": "source",
-    "tech_credit": "Platform Abstraction Layers",
-    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
-  },
-  {
-    "path": "PlatformAbstractionLayers/JavaExample1/RealOperation.java",
-    "type": "source",
-    "tech_credit": "Platform Abstraction Layers",
-    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
-  },
-  {
-    "path": "PlatformAbstractionLayers/JavaExample1/TaskRunner.java",
-    "type": "source",
-    "tech_credit": "Platform Abstraction Layers",
-    "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
-  },
-  {
-    "path": "Builder/ComputerExample/Computer.java",
-    "type": "source",
-    "tech_credit": "Builder Pattern",
-    "tech_credit_description": "Separate the construction of a complex object from its representation, allowing the same construction process to create different representations. Builder is particularly useful for constructing objects with many optional parameters or configurations."
-  },
-  {
-    "path": "CircuitBreaker/PythonExample1/CircuitBreaker.py",
-    "type": "source",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
-  },
-  {
-    "path": "CircuitBreaker/JavaExample1/CircuitBreaker1.java",
-    "type": "source",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
-  },
-  {
-    "path": "CircuitBreaker/JavaExample2/CircuitBreaker2.java",
-    "type": "source",
-    "tech_credit": "Circuit Breaker",
-    "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
-  },
-  {
-    "path": "Strategy/PythonExample1/strategyex.py",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample1/StrategyPatternExample.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample1/ConcreteStrategyA.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample1/ConcreteStrategyB.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample1/Context.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample1/Strategy.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample2/Main.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample2/CreditCardPaymentStrategy.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample2/PaymentStrategy.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample2/PayPalPaymentStrategy.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
-  },
-  {
-    "path": "Strategy/JavaExample2/ShoppingCart.java",
-    "type": "source",
-    "tech_credit": "Strategy Pattern",
-    "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    "tech_credit": "Observer",
+    "tech_credit_description": ""
   }
 ]
