@@ -1,0 +1,387 @@
+{
+    "Strategy/PythonExample1/strategyex.py": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample1/StrategyPatternExample.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample1/ConcreteStrategyA.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample1/ConcreteStrategyB.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample1/Context.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample1/Strategy.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample2/Main.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample2/CreditCardPaymentStrategy.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample2/PaymentStrategy.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample2/PayPalPaymentStrategy.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaExample2/ShoppingCart.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaCounterExample1/CommonListADT.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaCounterExample1/SimpleList.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Strategy/JavaCounterExample1/Main.java": {
+        "type": "source",
+        "tech_credit": "Strategy Pattern",
+        "tech_credit_description": "Define a family of algorithms under one strategy interface, making them interchangeable. Strategy lets the algorithm vary independently from clients that use it."
+    },
+    "Template/PythonExample1/templateex.py": {
+        "type": "source",
+        "tech_credit": "Template method",
+        "tech_credit_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+    },
+    "Template/JavaExample1/TemplateMethodPatternExample.java": {
+        "type": "source",
+        "tech_credit": "Template method",
+        "tech_credit_description": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure."
+    },
+    "CircuitBreaker/PythonExample1/CircuitBreaker.py": {
+        "type": "source",
+        "tech_credit": "Circuit Breaker",
+        "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+    },
+    "CircuitBreaker/JavaExample1/CircuitBreaker1.java": {
+        "type": "source",
+        "tech_credit": "Circuit Breaker",
+        "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+    },
+    "CircuitBreaker/JavaExample2/CircuitBreaker2.java": {
+        "type": "source",
+        "tech_credit": "Circuit Breaker",
+        "tech_credit_description": "Enhance system resilience by dynamically detecting service failures and preventing cascading issues, especially in distributed systems."
+    },
+    "Builder/ComputerExample/Computer.java": {
+        "type": "source",
+        "tech_credit": "Builder Pattern",
+        "tech_credit_description": "Separate the construction of a complex object from its representation, allowing the same construction process to create different representations. Builder is particularly useful for constructing objects with many optional parameters or configurations."
+    },
+    "Decorator/JavaExample1/LoggingDecorator.java": {
+        "type": "source",
+        "tech_credit": "Decorator Pattern",
+        "tech_credit_description": "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."
+    },
+    "Decorator/JavaExample1/BaseService.java": {
+        "type": "source",
+        "tech_credit": "Decorator Pattern",
+        "tech_credit_description": "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."
+    },
+    "Decorator/JavaExample1/Service.java": {
+        "type": "source",
+        "tech_credit": "Decorator Pattern",
+        "tech_credit_description": "Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality."
+    },
+    "Command/JavaExample1/Command.java": {
+        "type": "source",
+        "tech_credit": "Command Pattern",
+        "tech_credit_description": ""
+    },
+    "Command/JavaExample1/Light.java": {
+        "type": "source",
+        "tech_credit": "Command Pattern",
+        "tech_credit_description": ""
+    },
+    "Command/JavaExample1/LightOffCommand.java": {
+        "type": "source",
+        "tech_credit": "Command Pattern",
+        "tech_credit_description": ""
+    },
+    "Command/JavaExample1/LightOnCommand.java": {
+        "type": "source",
+        "tech_credit": "Command Pattern",
+        "tech_credit_description": ""
+    },
+    "Command/JavaExample1/RemoteControl.java": {
+        "type": "source",
+        "tech_credit": "Command Pattern",
+        "tech_credit_description": ""
+    },
+    "MVC/PythonExample1/controller.py": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/PythonExample1/main.py": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/PythonExample1/model.py": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/PythonExample1/view.py": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample1/Main.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample1/TaskController.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample1/TaskModel.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample1/TaskView.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample2/StudentModel.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample2/StudentView.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample2/StudentController.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "MVC/JavaExample2/Main.java": {
+        "type": "source",
+        "tech_credit": "Model View Controller",
+        "tech_credit_description": "Separate application concerns into three interconnected components: Model for business logic and data, View for user interface, and Controller for input handling. MVC promotes modularity, enabling independent development, testing, and reuse of each component."
+    },
+    "ChainOfResponsibility/PythonExample1/chain_of_res_ex.py": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "ChainOfResponsibility/JavaExample1/AbstractHandler.java": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "ChainOfResponsibility/JavaExample1/DogHandler.java": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "ChainOfResponsibility/JavaExample1/Handler.java": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "ChainOfResponsibility/JavaExample1/Main.java": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "ChainOfResponsibility/JavaExample1/MonkeyHandler.java": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "ChainOfResponsibility/JavaExample1/SquirrelHandler.java": {
+        "type": "source",
+        "tech_credit": "Chain of responsibility",
+        "tech_credit_description": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it."
+    },
+    "Iterator/PythonExample1/iter_ex.py": {
+        "type": "source",
+        "tech_credit": "Iterator",
+        "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+    },
+    "Iterator/JavaExample1/Book.java": {
+        "type": "source",
+        "tech_credit": "Iterator",
+        "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+    },
+    "Iterator/JavaExample1/BookCollection.java": {
+        "type": "source",
+        "tech_credit": "Iterator",
+        "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+    },
+    "Iterator/JavaExample1/BookIterator.java": {
+        "type": "source",
+        "tech_credit": "Iterator",
+        "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+    },
+    "Iterator/JavaExample1/Main.java": {
+        "type": "source",
+        "tech_credit": "Iterator",
+        "tech_credit_description": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation. An iterator needs to implement the Iterator interface, which defines methods for traversing the iterable."
+    },
+    "PlatformAbstractionLayers/PythonExample1/BasicAbstractionPatternEx.py": {
+        "type": "source",
+        "tech_credit": "Platform Abstraction Layers",
+        "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+    },
+    "PlatformAbstractionLayers/JavaExample1/Operation.java": {
+        "type": "source",
+        "tech_credit": "Platform Abstraction Layers",
+        "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+    },
+    "PlatformAbstractionLayers/JavaExample1/RealOperation.java": {
+        "type": "source",
+        "tech_credit": "Platform Abstraction Layers",
+        "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+    },
+    "PlatformAbstractionLayers/JavaExample1/TaskRunner.java": {
+        "type": "source",
+        "tech_credit": "Platform Abstraction Layers",
+        "tech_credit_description": "Introduce intermediary layers that decouple application logic from third-party platforms, libraries, or APIs. This shields the core system from external changes, simplifies technology replacement, and reduces the cost and risk of platform evolution."
+    },
+    "Proxy/PythonExample1/proxyex.py": {
+        "type": "source",
+        "tech_credit": "Proxy",
+        "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    },
+    "Proxy/JavaExample1/Main.java": {
+        "type": "source",
+        "tech_credit": "Proxy",
+        "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    },
+    "Proxy/JavaExample1/Proxy.java": {
+        "type": "source",
+        "tech_credit": "Proxy",
+        "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    },
+    "Proxy/JavaExample1/RealSubject.java": {
+        "type": "source",
+        "tech_credit": "Proxy",
+        "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    },
+    "Proxy/JavaExample1/Subject.java": {
+        "type": "source",
+        "tech_credit": "Proxy",
+        "tech_credit_description": "Provide a surrogate or placeholder for another object to control access to it."
+    },
+    "Adapter/MainPythonExample/adapterex.py": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/MainJavaExample/Adaptee.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/MainJavaExample/Adapter.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/MainJavaExample/Main.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/MainJavaExample/Target.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/PlugExample/EUPlug.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/PlugExample/USPlug.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Adapter/PlugExample/USPlugAdapter.java": {
+        "type": "source",
+        "tech_credit": "Adapter Pattern",
+        "tech_credit_description": "Convert the interface of an existing class into another interface clients expect. Adapter allows classes with incompatible interfaces to work together, promoting system flexibility and reducing the cost of integration with third-party or legacy components."
+    },
+    "Visitor/PythonExample1/visitorex.py": {
+        "type": "source",
+        "tech_credit": "Visitor Pattern",
+        "tech_credit_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates."
+    },
+    "Visitor/JavaExample1/VisitorPatternExample.java": {
+        "type": "source",
+        "tech_credit": "Visitor Pattern",
+        "tech_credit_description": "Represent an operation to be performed on instances of a set of classes. Visitor lets a new operation be defined without changing the classes of the elements on which it operates."
+    },
+    "Observer/JavaExample1/Main.java": {
+        "type": "source",
+        "tech_credit": "Observer",
+        "tech_credit_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically."
+    },
+    "Observer/JavaExample1/Editor.java": {
+        "type": "source",
+        "tech_credit": "Observer",
+        "tech_credit_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically."
+    },
+    "Observer/JavaExample1/EmailNotificationListener.java": {
+        "type": "source",
+        "tech_credit": "Observer",
+        "tech_credit_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically."
+    },
+    "Observer/JavaExample1/EventListener.java": {
+        "type": "source",
+        "tech_credit": "Observer",
+        "tech_credit_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically."
+    },
+    "Observer/JavaExample1/EventManager.java": {
+        "type": "source",
+        "tech_credit": "Observer",
+        "tech_credit_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically."
+    },
+    "Observer/JavaExample1/LogOpenListener.java": {
+        "type": "source",
+        "tech_credit": "Observer",
+        "tech_credit_description": "Define a one-to-many dependency between objects where a state change in one object results in all its dependents being notified and updated automatically."
+    }
+}
