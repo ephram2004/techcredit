@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcm"
+version = "0.1"
+description = "Technical Credit Manager"
+authors = [
+    { name="Ephram Cola-Jacquin", email="colajacquin.e@northeastern.edu" }
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
