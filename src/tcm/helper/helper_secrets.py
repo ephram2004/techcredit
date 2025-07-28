@@ -16,7 +16,7 @@ class SecretsLoader:
             str: the token retrieved
         """
         if dotenv.load_dotenv(token_path):
-            print(f"Loaded {token_name} from token file: {token_path}")
+            print(f"\tLoaded {token_name} from token file: {token_path}")
         else:
             raise FileNotFoundError(
                 f"Could not load token: {token_name}, check if token exists in given token file."
