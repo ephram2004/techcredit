@@ -160,5 +160,29 @@
         "url": "https://github.com/jakewc12/Reversi",
         "branch": "main",
         "folder": "ReversiGame/src"
+    },
+    "aaron-reversi": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/Aaron-Detre/Reversi-private-files",
+        "branch": "main",
+        "folder": "src"
+    },
+    "zane-reversi": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/aakarsh911/Reversi",
+        "branch": "main",
+        "folder": "src"
+    },
+    "three-trios-proj": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/dreifusjack/ThreeTrios",
+        "branch": "main",
+        "folder": "src"
+    },
+    "alex-three-trios": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/alexsun2/cs3500hw7",
+        "branch": "master",
+        "folder": "src"
     }
 }

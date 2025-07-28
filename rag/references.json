@@ -25,5 +25,9 @@
     "rg-strategy": "This code implements the Strategy pattern",
     "rg-template": "This code implements the Template method pattern",
     "rg-visitor": "This code implements the Visitor pattern",
-    "reversi-proj": "This code implements the MVC, Strategy, and Adapter patterns"
+    "reversi-proj": "This code implements the MVC, Strategy, and Adapter patterns",
+    "aaron-reversi": "This code implements the MVC, Strategy, and Adapter patterns",
+    "zane-reversi": "This code implements the MVC, Strategy, Adapter, Observer, and Decorator patterns",
+    "three-trios-proj": "This code implements the MVC, Strategy, Adapter, and Observer patterns",
+    "alex-three-trios": "This code implements the MVC, Strategy patterns"
 }
