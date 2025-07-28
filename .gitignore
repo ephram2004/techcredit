@@ -4,7 +4,7 @@
 .env
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
-*/__pycache__
+**/__pycache__/*
 
 # IPython
 profile_default/
@@ -17,8 +17,10 @@ ipython_config.py
 *.sqlite3
 
 # local database
-/rag/chroma_langchain_db
+**/chroma_langchain_db
 
+# logging
+**/context_doc_content.txt
 # Jupyter lab virtual documents
 # https://jupyterlab-lsp.readthedocs.io/en/2.x/Configuring.html#virtual_documents_dir
 .virtual_documents/
@@ -29,3 +31,7 @@ ipython_config.py
 
 # ignore DS_Store
 .DS_Store
+
+# ignore build files
+*/tcm.egg*
+

@@ -1,4 +1,4 @@
-name: tcai
+name: tcm
 channels:
   - conda-forge
   - defaults

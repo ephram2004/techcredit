@@ -32,6 +32,8 @@ Inside the directory, there is a "environment.yml" file for all dependencies,
 you may need to manually change the name and prefix for the python environment.
 ``` bash
 conda env create -f environment.yml
+conda activate tam
+pip install -e .
 ```
 
 And then, run the jupyter notebook to run the rag system.
