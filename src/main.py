@@ -1,5 +1,7 @@
 import os
+import time
 import json
+import argparse
 
 # Local Imports
 from tcm.helper.helper_filters import FileFilters
@@ -17,6 +19,9 @@ from tcm.database.database_chroma import ChromaDB
 
 from tcm.rag.rag_embeddings import TCMEmbeddings
 from tcm.rag.rag_llm import LargeLanguageModel
+
+# Global Imports
+from typing import Dict
 
 def init() -> None:
     print("=" * 50)
@@ -40,7 +45,7 @@ def train(code_db: ChromaDB, web_db: ChromaDB) -> None:
     scraper.debug_chunks()
     web_db.add(chunks)
 
-    print("(DEBUG): Loading TC training repository")
+    print("(DEBUG): Loading TC training repository\n")
     gh_loader = GithubLoader("https://github.com/alexsun2/TC-Examples")
     gh_loader.load_repo(FileFilters.JAVA_FILES, debug_lvl=1)
 
@@ -64,8 +69,10 @@ def train(code_db: ChromaDB, web_db: ChromaDB) -> None:
 
     code_db.add(split_docs.get_docs())
 
-def main(code_emb_db: ChromaDB, url: str, branch: str = "main") -> None:
+def main(code_emb_db: ChromaDB, params: Dict[str, Dict[str, str]]) -> None:
     print("(DEBUG): Running Prompt")
+
+    start_total = time.time()
 
     llm = LargeLanguageModel(
         "claude-3-5-sonnet-latest", 
@@ -76,16 +83,63 @@ def main(code_emb_db: ChromaDB, url: str, branch: str = "main") -> None:
     user_tmp = llm.generate_jinja_prompt_template(JINJA_PROMPT)
     prompt = llm.generate_chat_prompt()
 
-    llm.debug_chat_prompt()
+    # llm.debug_chat_prompt()
 
     graph = init_app()
-    response = graph.invoke({"question": "Tell me what tech credits does the repo possibly use?",
-                             "url": url, "branch": branch, "folder": folder, 
-                             "vector_db": code_emb_db, "user_prompt_template": user_tmp, 
-                             "prompt": prompt, "llm": llm})
-    print(response["answer"])
+
+    responses = {}
+    runtimes = []
+
+    for key, item in params.items():
+        start_repo = time.time()
+        response = graph.invoke({
+            "question": "Tell me what tech credits does the repo possibly use?",
+            "url": item["url"], 
+            "branch": item["branch"], 
+            "folder": item["folder"], 
+            "vector_db": code_emb_db, 
+            "user_prompt_template": user_tmp, 
+            "prompt": prompt, 
+            "llm": llm
+        })
+        
+        end_repo = time.time()
+        duration_repo = end_repo - start_repo
+        runtimes.append((key, duration_repo))
+
+        print(response["answer"])
+        responses[key] = response["answer"]
+
+    end_total = time.time()
+    duration_total = end_total - start_total
+
+    with open("responses.json", "w", encoding="utf-8") as f:
+        json.dump(responses, f, indent=4)
+
+    # print summary table
+    print("\nRuntime Summary:")
+    print("-" * 50)
+    print(f"{'Repo':<20} | {'Time (s)':>10}")
+    print("-" * 50)
+    for key, duration in runtimes:
+        print(f"{key:<20} | {duration:>10.2f}")
+    print("-" * 50)
+    print(f"{'TOTAL':<20} | {duration_total:>10.2f}")
+    print("-" * 50)
+        
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="I am the TCM man")
+    parser.add_argument("--repository", type=str, 
+                        help="HTTPS link to GitHub repository to check for TC.")
+    parser.add_argument("--branch", type=str, help="Specific branch to checkout (default \"main\")",
+                        default="main")
+    parser.add_argument("--folder", type=str, help="Specific folder to filter from (default None)",
+                        default="")
+    parser.add_argument("--json", type=str, 
+                        help="(optional) JSON file path (for multiple repositories)")
+    args = parser.parse_args()
+
     init()
 
     emb = TCMEmbeddings("models/text-embedding-004")
@@ -94,8 +148,18 @@ if __name__ == "__main__":
 
     train(code_emb_db, web_emb_db)
 
-    url = "https://github.com/alexsun2/cs3500lab9"
-    branch = "main"
-    folder = "src"
+    # url = "https://github.com/alexsun2/cs3500lab9"
 
-    main(code_emb_db, url, branch=branch)
+    if args.json:
+        with open(args.json, 'r', encoding='utf-8') as f:
+            json_args = json.load(f)
+        main(code_emb_db, json_args)
+    else:
+        llm_args = {
+            "repo": {
+                "url": args.repository,
+                "branch": args.branch,
+                "folder": args.folder
+            }
+        }
+        main(code_emb_db, llm_args)

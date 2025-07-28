@@ -1,0 +1,188 @@
+{
+    "alex-lab9": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/alexsun2/cs3500lab9",
+        "branch": "main",
+        "folder": "src"
+    },
+    "alex-lab10": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/alexsun2/cs3500lab10",
+        "branch": "main",
+        "folder": "src"
+    },
+    "iluwatar-adapter": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "adapter"
+    },
+    "iluwatar-builder": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "builder"
+    },
+    "iluwatar-chain": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "chain-of-responsibility"
+    },
+    "iluwatar-cb": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "circuit-breaker"
+    },
+    "iluwatar-command": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "command"
+    },
+    "iluwatar-decorator": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "decorator"
+    },
+    "iluwatar-itr": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "iterator"
+    },
+    "iluwatar-mvc": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "model-view-controller"
+    },
+    "iluwatar-observer": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "observer"
+    },
+    "iluwatar-proxy": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "proxy"
+    },
+    "iluwatar-strategy": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "strategy"
+    },
+    "iluwatar-template": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "template-method"
+    },
+    "iluwatar-visitor": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/iluwatar/java-design-patterns/",
+        "branch": "master",
+        "folder": "visitor"
+    },
+    "rg-adapter": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/adapter/example"
+    },
+    "rg-builder": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/builder/example"
+    },
+    "rg-chain": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/chain_of_responsibility/example"
+    },
+    "rg-command": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/command/example"
+    },
+    "rg-decorator": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/decorator/example"
+    },
+    "rg-itr": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/iterator/example"
+    },
+    "rg-observer": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/observer/example"
+    },
+    "rg-proxy": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/proxy/example"
+    },
+    "rg-strategy": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/strategy/example"
+    },
+    "rg-template": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/template_method/example"
+    },
+    "rg-visitor": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/RefactoringGuru/design-patterns-java",
+        "branch": "main",
+        "folder": "src/refactoring_guru/visitor/example"
+    },
+    "reversi-proj": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/jakewc12/Reversi",
+        "branch": "main",
+        "folder": "ReversiGame/src"
+    },
+    "aaron-reversi": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/Aaron-Detre/Reversi-private-files",
+        "branch": "main",
+        "folder": "src"
+    },
+    "zane-reversi": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/aakarsh911/Reversi",
+        "branch": "main",
+        "folder": "src"
+    },
+    "three-trios-proj": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/dreifusjack/ThreeTrios",
+        "branch": "main",
+        "folder": "src"
+    },
+    "alex-three-trios": {
+        "question": "Tell me what tech credits does the repo possibly use?",
+        "url": "https://github.com/alexsun2/cs3500hw7",
+        "branch": "master",
+        "folder": "src"
+    }
+}

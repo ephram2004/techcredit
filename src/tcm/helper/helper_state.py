@@ -53,20 +53,26 @@ def __to_json(state: State) -> str:
 
 def retrieve(state: State):
     gh_loader = GithubLoader(state["url"], state['branch'])
-    gh_loader.load_repo(
-        FileFilters.FOLDER_ONLY(state["folder"]),
-        FileFilters.JAVA_FILES, 
-        FileFilters.NOT_TESTS
-    )
+    if state["folder"] != "":
+        gh_loader.load_repo(
+            FileFilters.FOLDER_ONLY(state["folder"]),
+            FileFilters.JAVA_FILES, 
+            FileFilters.NOT_TESTS
+        )
+    else:
+        gh_loader.load_repo(
+            FileFilters.JAVA_FILES, 
+            FileFilters.NOT_TESTS
+        )
 
     repo_splits = DocumentHelper(TokenSplitter.split_documents(gh_loader.get_docs()))
-    # repo_splits.debug()
-    repo_splits.debug_all()
+    repo_splits.debug()
+    # repo_splits.debug_all()
 
     docs = state["vector_db"].top_k_similar_queries(repo_splits.to_str())
 
-    print("\n(DEBUG): Collecting unique pairs")
-    print("\n---\n")
+    # print("\n(DEBUG): Collecting unique pairs")
+    # print("\n---\n")
     parts = []
     for i, (user_code, context_docs, _) in enumerate(docs):
         if i != 0:
@@ -79,6 +85,8 @@ def retrieve(state: State):
             "context_code": "\n\n".join(doc.page_content for doc in context_helper.get_docs())
         })
 
+    # print('\n')
+    # print("=" * 50)
     return {"parts": parts}
 
 def retrieve_doc(state: State):
@@ -109,11 +117,11 @@ def generate(state: State):
         }
     )
     
-    print("(DEBUG) GENERATE STATE:\n")
-    print(__to_json(state), '\n')
-    print('=' * 50)
-    print("(DEBUG) LLM PROMPT:\n")
-    print(messages.to_string())
+    # print("\n(DEBUG) GENERATE STATE:\n")
+    # print(__to_json(state), '\n')
+    # print('=' * 50)
+    # print("(DEBUG) LLM PROMPT:\n")
+    # print(messages.to_string())
 
     with open("logs/context_doc_content.txt", "w", encoding="utf-8") as f:
         f.write(messages.to_string())

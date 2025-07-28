@@ -39,7 +39,7 @@ class GithubLoader:
             documents (List[Document]): List of loaded documents
             repo_name (str): Name of the repository for context
         """
-        print(f"\n=== Repository Contents: {self.__repo_name} ===")
+        print(f"=== Repository Contents: {self.__repo_name} ===")
         print(f"Total files loaded: {len(self.documents)}")
         print("Files:")
         
