@@ -35,3 +35,7 @@ ipython_config.py
 # ignore build files
 */tcm.egg*
 
+# ignore script outputs
+*
+**/responses.json
+
