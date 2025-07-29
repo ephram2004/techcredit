@@ -17,7 +17,7 @@ SYSTEM_PROMPT = (
     "of retrieved context to answer the question. If you don't know the answer, just "
     "say that you don't know. Please only use the provided technical credit categories. " 
     "For each code snippet, keep your answer as concise as possible, while identifying as "
-    "many technical credits as possible. "
+    "many technical credits as possible."
 )
 
 USER_PROMPT = """\
